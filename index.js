@@ -77,6 +77,17 @@ client.connect((err) => {
       res.send(documents);
     });
   });
+
+  //. delete order
+  app.delete('/deleteOrder/:id', (req, res) => {
+    console.log(req.params.id);
+    ordersCollection
+      .deleteOne({ _id: ObjectId(req.params.id) })
+      .then((result) => {
+        console.log(result);
+        res.send(result.deletedCount > 0);
+      });
+  });
 });
 
 app.listen(port, () => console.log('listening to port ' + port));
