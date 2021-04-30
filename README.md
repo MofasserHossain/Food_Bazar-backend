@@ -13,7 +13,7 @@ It's a single page web application where users can order food, checkout products
 - Firebase Authentication. `for log-in process`
 - Firebase Deploy - `for deploy website in live`
 
-### Front-end language & Tools
+### Back-end language & Tools
 
 - Node JS
 - Express JS
