@@ -18,7 +18,7 @@ It's a single page web application where users can order food, checkout products
 - Node JS
 - Express JS
 - MongoDB
-- Environment Variable
+- Environment Variable - `for secure data`
 - Heroku - `for deploy back-end api`
 
 ## How to setup in local desktop
